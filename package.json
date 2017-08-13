@@ -1,0 +1,42 @@
+{
+	"name": "is-playlist",
+	"version": "0.0.0",
+	"description": "Check if an URL is a YouTube playlist",
+	"license": "MIT",
+	"repository": "itaisteinherz/is-playlist",
+	"author": {
+		"name": "Itai Steinherz",
+		"email": "itaisteinherz@gmail.com",
+		"url": "github.com/itaisteinherz"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"youtube",
+		"playlist",
+		"video",
+		"url"
+	],
+	"dependencies": {
+		"js-video-url-parser": "^0.2.4"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	},
+	"xo": {
+		"rules": {
+			"quotes": [
+				"error",
+				"double"
+			]
+		}
+	}
+}
