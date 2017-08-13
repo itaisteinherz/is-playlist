@@ -1,6 +1,6 @@
 {
 	"name": "is-playlist",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Check if an URL is a YouTube playlist",
 	"license": "MIT",
 	"repository": "itaisteinherz/is-playlist",
