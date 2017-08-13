@@ -25,6 +25,7 @@
 		"url"
 	],
 	"dependencies": {
+		"is-url-superb": "^2.0.0",
 		"js-video-url-parser": "^0.2.4"
 	},
 	"devDependencies": {
