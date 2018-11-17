@@ -33,13 +33,13 @@ isPlaylist("https://vimeo.com/channels/staffpicks/229370456");
 
 ### isPlaylist(url)
 
+Checks if the given `url` is either a playlist (e.g. https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) or a video that's part of a playlist (e.g. https://youtu.be/BCQHnlnPusY?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).
+
 #### url
 
 Type: `string`
 
 URL to check.
-
-Note: URLs which represent a video in a playlist (i.e. https://youtu.be/BCQHnlnPusY?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) are considered playlists.
 
 
 ## License
