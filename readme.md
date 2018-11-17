@@ -39,6 +39,8 @@ Type: `string`
 
 URL to check.
 
+Note: URLs which represent a video in a playlist (i.e. https://youtu.be/BCQHnlnPusY?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) are considered playlists.
+
 
 ## License
 
