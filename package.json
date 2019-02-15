@@ -22,15 +22,17 @@
 		"youtube",
 		"playlist",
 		"video",
-		"url"
+		"url",
+		"parse",
+		"list"
 	],
 	"dependencies": {
 		"is-url-superb": "^2.0.0",
-		"js-video-url-parser": "^0.2.4"
+		"js-video-url-parser": "^0.2.8"
 	},
 	"devDependencies": {
-		"ava": "^0.20.0",
-		"xo": "^0.18.2"
+		"ava": "^1.2.1",
+		"xo": "^0.24.0"
 	},
 	"xo": {
 		"rules": {

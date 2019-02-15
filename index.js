@@ -13,5 +13,5 @@ module.exports = url => {
 
 	const urlInfo = urlParser.parse(url);
 
-	return urlInfo.provider === "youtube" && (urlInfo.mediaType === "playlist" || typeof urlInfo.list !== "undefined");
+	return urlInfo.provider === "youtube" && (urlInfo.mediaType === "playlist" || Boolean(urlInfo.list));
 };
